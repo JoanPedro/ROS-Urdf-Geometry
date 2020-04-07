@@ -3,7 +3,7 @@ World configurate and Test for URDF definitions
 
 # Setup:
 
-The exact location of ROS packages is unimportant, as long as they are in the src space of your workspace. In this week we're going to make use of that, by placing the new packages directly in the src space, instead of in a sub directory.
+The exact location of ROS packages is unimportant, as long as they are in the src space of your workspace. Make use of that, by placing the new packages directly in the src space, instead of in a sub directory.
 
 Extract the contents of the zip file into $HOME/hrwros_ws/src.
 
