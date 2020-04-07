@@ -28,7 +28,7 @@ Now run the following commands in the CCS terminal:
   source $HOME/hrwros_ws/devel/setup.bash
 ```
 
-At this point you are all setup to continue with Week 2 of the course and you can use the CCS as normal.
+At this point you are all setup to continue use the CCS as normal.
 
 ```javascript
 ~/hrwros_ws/src/hrwros_support/urdf> roslaunch hrwros_support visualize_hrwros.launch
