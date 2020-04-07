@@ -5,7 +5,7 @@ World configurate and Test for URDF definitions
 
 The exact location of ROS packages is unimportant, as long as they are in the src space of your workspace. Make use of that, by placing the new packages directly in the src space, instead of in a sub directory.
 
-Extract the contents of the zip file into $HOME/hrwros_ws/src.
+Extract the contents of the file into $HOME/hrwros_ws/src.
 
 Always overwrite all the previous content!
 
