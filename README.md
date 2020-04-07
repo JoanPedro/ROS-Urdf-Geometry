@@ -3,6 +3,33 @@ World configurate and Test for URDF definitions
 
 # Setup:
 
+The exact location of ROS packages is unimportant, as long as they are in the src space of your workspace. In this week we're going to make use of that, by placing the new packages directly in the src space, instead of in a sub directory.
+
+Extract the contents of the zip file into $HOME/hrwros_ws/src.
+
+Always overwrite all the previous content!
+
+After the above step, your folder structure under $HOME/hrwros_ws/src should look like this:
+
+    hrwros
+            hrwros_week1
+            hrwros_msgs
+
+    hrwros_support
+    hrwros_week2
+
+Now run the following commands in the CCS terminal:
+
+```
+  source /opt/ros/melodic/setup.bash
+  cd $HOME/hrwros_ws
+  catkin clean -y
+  catkin build
+  source $HOME/hrwros_ws/devel/setup.bash
+```
+
+At this point you are all setup to continue with Week 2 of the course and you can use the CCS as normal.
+
 ```javascript
 ~/hrwros_ws/src/hrwros_support/urdf> roslaunch hrwros_support visualize_hrwros.launch
 ```
